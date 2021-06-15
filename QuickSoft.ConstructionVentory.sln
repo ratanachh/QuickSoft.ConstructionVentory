@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSoft.ConstructionVento
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "build", "build\build.csproj", "{45FE6198-AEB5-4DFC-8559-5F645A7353A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_Core_3", "ASPNET_Core_3_0_Seed_Project\ASPNET_Core_3\ASPNET_Core_3.csproj", "{42B11D5D-9868-4E99-A33B-80655BE2F574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{45FE6198-AEB5-4DFC-8559-5F645A7353A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45FE6198-AEB5-4DFC-8559-5F645A7353A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45FE6198-AEB5-4DFC-8559-5F645A7353A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B11D5D-9868-4E99-A33B-80655BE2F574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B11D5D-9868-4E99-A33B-80655BE2F574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B11D5D-9868-4E99-A33B-80655BE2F574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B11D5D-9868-4E99-A33B-80655BE2F574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

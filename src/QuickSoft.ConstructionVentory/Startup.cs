@@ -145,11 +145,6 @@ namespace QuickSoft.ConstructionVentory
                     .AllowAnyOrigin()
                     .AllowAnyHeader()
                     .AllowAnyMethod());
-            
-            app.UseAuthentication();
-            app.UseMvc();
-            
-            
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -157,6 +152,10 @@ namespace QuickSoft.ConstructionVentory
             app.UseRouting();
             
             app.UseAuthorization();
+            
+            
+            // app.UseAuthentication();
+            app.UseMvc();
             
             app.UseEndpoints(endpoints =>
             {
